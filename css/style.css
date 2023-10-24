@@ -219,6 +219,12 @@ main{
         justify-content: space-around;
         gap: 10px
     }
+    .donate-plan{
+        margin: 10px;
+    }
+    .plan-container{
+        flex-wrap: wrap;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 978px){
     main{
@@ -231,6 +237,17 @@ main{
         flex-wrap: wrap;
         justify-content: space-around;
         gap: 10px
+    }
+    .donate-plan{
+        margin: 10px;
+    }
+    .plan-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .plan-item{
+        flex-basis: 40%;
+        
     }
 }
 
