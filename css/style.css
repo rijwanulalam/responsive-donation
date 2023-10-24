@@ -209,6 +209,7 @@ main{
 @media  screen and (max-width: 576px) {
     main{
         margin: 0;
+    }
     .donate-today{
         margin: 0;
     }
