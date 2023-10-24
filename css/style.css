@@ -6,6 +6,9 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.hide{
+    display: none;
+}
 .btn-primary{
     color: #ffff;
     font-size: 20px;
@@ -201,4 +204,17 @@ main{
     align-items: center;
     color: #aca8a8;
     padding-bottom: 20px;
+}
+
+@media  screen and (max-width: 576px) {
+    main{
+        margin: 0;
+    .donate-today{
+        margin: 0;
+    }
+    .amount-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px
+    }
 }
