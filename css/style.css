@@ -219,3 +219,16 @@ main{
         gap: 10px
     }
 }
+@media screen and (min-width: 577px) and (max-width: 978px){
+    main{
+        margin: 0;
+    }
+    .donate-today{
+        margin: 0 10px;
+    }
+    .amount-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px
+    }
+}
