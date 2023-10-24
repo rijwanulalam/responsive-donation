@@ -51,7 +51,8 @@ header{
 }
 /* main styles */
 main{
-    margin: 0 200px;
+    margin: 0 auto;
+    max-width: 1140px;
 }
 /* donate today */
 .donate-today{
@@ -232,3 +233,4 @@ main{
         gap: 10px
     }
 }
+
